@@ -1,0 +1,32 @@
+{
+    "name": "password-strength-react",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "bootstrap": "^4.1.0",
+        "isemail": "^3.1.2",
+        "prop-types": "^15.6.1",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2",
+        "react-scripts": "1.1.4",
+        "zxcvbn": "^4.4.2"
+    },
+    "scripts": {
+        "start:js": "react-scripts start",
+        "build:js": "react-scripts build",
+        "start": "npm-run-all -p watch:css start:js",
+        "build": "npm-run-all build:css build:js",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "precommit": "lint-staged",
+        "build:css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+        "watch:css": "npm run build:css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive"
+    },
+    "devDependencies": {
+        "husky": "^0.14.3",
+        "lint-staged": "^7.0.4",
+        "node-sass-chokidar": "^1.2.2",
+        "npm-run-all": "^4.1.2",
+        "prettier": "^1.12.1"
+    }
+}
