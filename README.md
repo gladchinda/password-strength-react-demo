@@ -2,6 +2,10 @@
 
 This project contains a demo source code showing how to use the [zxcvbn][zxcvbn] JavaScript library in a [React][react] application. Prior experience working with the React framework is required for complete understanding of the demo code. You can checkout the [docs][react-docs] to learn more about React.
 
+Here are screenshots of the demo React application:
+
+![Demo Application](https://i.imgur.com/JLiYFLz.jpg)
+
 Before you begin, make sure you have [`npm`][npm] and [`node`][node] installed on your system. It is recommended that you use [`yarn`][yarn] instead of `npm` to run and manage the package. Follow this [guide to install yarn][yarn-install] on your system.
 
 Once you have either `yarn` or `npm` installed, run the following commands to get started.
