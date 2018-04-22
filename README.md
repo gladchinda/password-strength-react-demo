@@ -1,4 +1,4 @@
-# Password Strength Meter (React) Demo Code
+# Password Strength Meter (React) Demo
 
 This project contains a demo source code showing how to use the [zxcvbn][zxcvbn] JavaScript library in a [React][react] application. Prior experience working with the React framework is required for complete understanding of the demo code. You can checkout the [docs][react-docs] to learn more about React.
 
