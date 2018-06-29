@@ -1,5 +1,7 @@
 # Password Strength Meter (React) Demo
 
+**You can checkout the full article on Scotch: [Password Strength Meter in React](https://scotch.io/tutorials/password-strength-meter-in-react).**
+
 This project contains a demo source code showing how to use the [zxcvbn][zxcvbn] JavaScript library in a [React][react] application. Prior experience working with the React framework is required for complete understanding of the demo code. You can checkout the [docs][react-docs] to learn more about React.
 
 Here are screenshots of the demo React application:
